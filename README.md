@@ -12,3 +12,7 @@ The caesar_cipher.py implements encryption & decryption of the same.
 Vigenere cipher was the invinsible cipher of the 16th century. It was finally cracked by the Kasiski technique in the 19th century.
 In the file vigenere_cipher.py, I have done a simple string encryption & decryption using a key string.
 The formulae for encryption is : (xi + ki) % 26. So every character is mapped to a character of the secret key in this Cipher.
+
+### One Time PAD Cipher:
+This Cipher is a bit more advanced than Vigenere Cipher in the fact that, here the secret is an randomly generated list of numbers of the same length as that of the message to be encrypted. Due to this the encryption is stronger and it's harder to crack as compared to Vigenere Cipher.
+However the cipher is still crackable & is not considered that secure.
