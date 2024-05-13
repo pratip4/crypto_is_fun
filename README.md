@@ -14,5 +14,4 @@ In the file vigenere_cipher.py, I have done a simple string encryption & decrypt
 The formulae for encryption is : (xi + ki) % 26. So every character is mapped to a character of the secret key in this Cipher.
 
 ### One Time PAD Cipher:
-This Cipher is a bit more advanced than Vigenere Cipher in the fact that, here the secret is an randomly generated list of numbers of the same length as that of the message to be encrypted. Due to this the encryption is stronger and it's harder to crack as compared to Vigenere Cipher.
-However the cipher is still crackable & is not considered that secure.
+This Cipher is a bit more advanced than Vigenere Cipher in the fact that, here the secret is an randomly generated list of numbers of the same length as that of the message to be encrypted. Due to this the encryption is stronger and it's practically impossible to crack a OTP Cipher as compared to Vigenere Cipher using Brute Force. Having said that it has a weakness that we cannot create a perfect random number as a secret. Hence this Cipher is still not used practically. As per Shannon Secrecy studies, this is considered as a perfect secrecy, only if we can transfer the key securely.
