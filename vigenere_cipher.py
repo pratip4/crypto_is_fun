@@ -1,5 +1,5 @@
 # Vigenere Cipher is another Symmetric or Private key encryption, that was used in 16th century.
-# This technique was considered as the most invisible encryption algorithm in the 16th Century, till it was cracked by Kaminski algorithm / technique in the 19th century.
+# This technique was considered as the most invisible encryption algorithm in the 16th Century, till it was cracked by Kasiski algorithm / technique in the 19th century.
 # In this python class I will try to do encryption using Vigenere technique and then decrypt it.
 # Assumption: Assuming there is only upper-case alphabet and space in key & message for simplicity.
 from loguru import logger
